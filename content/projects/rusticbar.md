@@ -4,6 +4,7 @@ icon: "github"
 description: "Status bar for SwayWM made with Rust"
 topics: ["Rust", "gtk-rs", "SwayWM", "Linux"]
 # externalUrl: "https://github.com/gregovilardo/rusticbar/"
+url: "/project/rusticbar"
 ---
 ## Description
 
