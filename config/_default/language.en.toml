@@ -8,6 +8,6 @@ bio = "Computer Analyst"
 links = [
   { linkedin = "https://linkedin.com/in/gregovilardo" },
   { github = "https://github.com/gregovilardo" },
-  # { link = "https://github.com/gregovilardo" }, /TODO add link to cv
+  { link = "https://media.licdn.com/dms/document/media/v2/D4D2DAQFVxL83moADNw/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1735587519739?e=1736380800&v=beta&t=2O9pj9cJBWJLa1O1z_dMEqvdDasw0QGBOXs5VitvsPU" },
   { email = "mailto:gregovilardo@gmail.com" }
 ]
