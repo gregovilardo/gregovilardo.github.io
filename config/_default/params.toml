@@ -1,0 +1,23 @@
+colorScheme = "avocado"
+homepage.layout = "profile"
+mainSections = ["projects"]
+homepage.showRecent = false
+
+[article]
+  showDate = false 
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = false
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+  # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo"]

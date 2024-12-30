@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in
+.TableOfContents "<ul") }} <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </header>
+    <section class="{{ if $toc -}}
+      mt-8
+    {{- else -}}
+      mt-0
+    {{- end }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+        {{ if $toc }}
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+            <div class="toc ps-5 lg:sticky lg:top-10">
+                {{ partial "toc.html" . }}
+            </div>
+        </div>
+        {{ end }}
+        <div class="min-h-0 min-w-0 max-w-prose grow">
+            {{ .Content | emojify }}
+        </div>
+    </section>
+    {{ if .Data.Pages }}
+    <section>
+        {{ range .Pages }}
+        <article class="pb-6">
+            <a class="flex" style="padding-bottom:15px" href="{{ .Params.url }}">
+                <div style="margin-right:5px" class="mr-6 text-3xl text-neutral-300">
+                    <span class="relative inline-block align-text-bottom">
+                        {{ partial "icon.html" .Params.icon }}
+                    </span>
+                </div>
+                <div>
+                    <h3 class="flex text-xl font-semibold">
+                        {{ .Title }}
+                    </h3>
+                    <p class="text-sm text-neutral-400">
+                        {{ .Description }}
+                    </p>
+                </div>
+            </a>
+        </article>
+        {{ end }}
+    </section>
+
+    {{ partial "pagination.html" . }}
+    {{ else }}
+    <section class="prose mt-10 dark:prose-invert">
+        <p class="border-t py-8">
+            <em>{{ i18n "list.no_articles" | emojify }}</em>
+        </p>
+    </section>
+    {{ end }}
+    {{ end }}

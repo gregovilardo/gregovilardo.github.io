@@ -1,0 +1,13 @@
+title = "Gregorio Vilardo - Porfolio"
+
+[params.author]
+name = "Gregorio Vilardo"
+image = "img/profile.jpeg"
+headline = "Computer Analyst, pursuing Bachelor of Computer Science (FaMAF)" 
+bio = "Computer Analyst"
+links = [
+  { linkedin = "https://linkedin.com/in/gregovilardo" },
+  { github = "https://github.com/gregovilardo" },
+  # { link = "https://github.com/gregovilardo" }, /TODO add link to cv
+  { email = "mailto:gregovilardo@gmail.com" }
+]

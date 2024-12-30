@@ -1,0 +1,4 @@
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 10

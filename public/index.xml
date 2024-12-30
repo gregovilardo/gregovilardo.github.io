@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gregorio Vilardo - Porfolio</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Gregorio Vilardo - Porfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Switcher</title>
+      <link>//localhost:1313/project/el_switcher/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/el_switcher/</guid>
+      <description>&lt;h2 id=&#34;description&#34; class=&#34;relative group&#34;&gt;Description &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#description&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This project was part of the Software Engineering 1 course, where we were tasked with forming a team of 6 people to develop a video game called &amp;ldquo;The Switcher.&amp;rdquo; The game revolves around identifying and forming shapes on a board using movement cards.&#xA;We used React for the front-end and FastAPI for the back-end.&#xA;The communication between the client and server was done via a REST API and WebSockets. The client would send a fetch request whenever the user wanted to perform an action or when the server notified the client through WebSocket about any events.&#xA;This project demonstrates my ability to work in a team, utilizing tools like Jira and Git. It also highlights my algorithmic skills, which were crucial for identifying shapes on the board, as well as my ability to take a project from scratch and successfully complete it.&#xA;While there are many improvements we could make, we were proud to receive a grade of 10 for the project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rusticbar</title>
+      <link>//localhost:1313/projects/rusticbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/rusticbar/</guid>
+      <description>&lt;h2 id=&#34;description&#34; class=&#34;relative group&#34;&gt;Description &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#description&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This was a summer project inspired by my Operating Systems course and my daily use of tiling window managers. I decided to create my own status bar for SwayWM.&#xA;I also chose to use Rust—a language I was unfamiliar with—as a way to learn it through this project. While I achieved my goal, I must admit that Rust is a challenging language, and I still have much to learn. I haven’t revisited it since then, as I’m currently focused on learning Golang.&#xA;What made the process even more demanding was having to use a framework, gtk-rs, which meant I was learning both Rust and the framework simultaneously.&#xA;Despite these challenges, I am very proud of the result. It’s a piece of software I use daily, and I must say it has never crashed (which likely wouldn’t have been the case if I had chosen a language like C).&#xA;Through this project, I learned concepts like IPC and asynchronous operations, as well as applied knowledge from my studies, such as threads, process forking, and more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
